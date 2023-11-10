@@ -79,10 +79,9 @@ def brent(f, a, b, tol=1e-5):
                 fv = fu
     return x
 
-# Test function
+
 f = lambda x: (x - 0.3)**2 * np.exp(x)
 
-# Call the brent function
 result = brent(f, -10, 10)
 print("The minimum of the function occurs at x =", result)
 
