@@ -88,4 +88,4 @@ print("The minimum of the function occurs at x =", result)
 
 
 res = minimize_scalar(f, method='brent')
-print("The minimum of the function occurs at x =", res.x)
+print("The minimum of the scipy function occurs at x =", res.x)
