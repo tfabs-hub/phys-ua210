@@ -3,6 +3,8 @@ import matplotlib.pyplot as plt
 from scipy.fft import fft
 
 waveform = np.loadtxt('trumpet.txt')
+print(len(waveform))
+
 
 plt.figure(figsize=(12, 6))
 plt.subplot(2, 1, 1)
